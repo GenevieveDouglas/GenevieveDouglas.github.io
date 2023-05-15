@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(195, 85, 83);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro {
+    color: Black;
+    height: 100vh;
+    border-radius: 5px;
+    background-color: rgb(244, 147, 111);
+}
+
+#intro h1 {
+    font-size: 96px;
+    animation: fadein ease-in 1s;
+}
+
+#intro h3 {
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+code {
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#intro code {
+    font-size: 1.75rem;
+    color: white;
+}
+
+#arrowDown {
+    font-size: 75px;
+    position: absolute;
+    bottom: 30px;
+    color: rgb(62, 124, 145);
+    left: calc(50% - 37.5px);
+}
+
+#about {
+    color: rgb(195, 85, 83);
+    background: rgb(44, 86, 100);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#about h1 {
+    color: white;
+}
+
+#contact {
+    background-color: rgb(63, 47, 78);
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#contact h1 {
+    color: white;
+}
+
+#contact p {
+    color: rgb(195, 85, 83);
+}
+
+form input,
+form textarea {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+#email {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form .btn-primary {
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(195, 85, 83);
+    border: 2px solid white;
+}
+
+#contact a {
+    color: white;
+}
+
+#portfolio {
+    background-color: rgb(253, 207, 138);
+    padding: 30px;
+    border-radius: 5px;
+    color: rgb(195, 85, 83);
+}
+
+#portfolio h1 {
+    color: white;
+}
+
+section {
+    box-shadow: -10px 0 25px black;
+}
+
+.navbar {
+    background-color: rgb(253, 207, 138) !important;
+    border-radius: 5px;
+    box-shadow: -10px 0 25px black;
+}
+
+.navbar a {
+    color: black;
+}
+
+main img {
+    border-radius: 5px;
+}
+
+main {
+    background: rgb(44, 86, 100);
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: -10px 0 25px black;
+}
+
+.bg-secondary {
+    background-color: rgb(63, 47, 78) !important;
+}
+
+.btn-primary {
+    background-color: rgb(63, 47, 78) !important;
+    border: none;
+}
